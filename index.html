@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kashmir Jean Philips - Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">KJP</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Kashmir Jean Philips</h1>
+        <p class="hero-subtitle">Aspiring Frontend Developer</p>
+        <a href="#about" class="cta-button">Learn More</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>About Me</h2>
+              <p>
+                Hello! I'm a 21 years old 3rd year I.T. Student, aspiring to become a
+                frontend developer.
+              </p>
+              <p>
+                I enjoy learning new technologies and applying them to real-world
+                problems.
+              </p>
+              <p>
+                I'm currently studying different technologies to build modern
+                websites.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="profile.jpg" alt="Profile picture" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="projects-grid">
+            
+            <div class="project-card">
+              <div class="project-header">
+                <h3>BMP to ASCII</h3>
+              </div>
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="bmp_24.bmp" style="width: 100%" />
+                  <div class="text">BMP Image</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="input.jpg" style="width: 100%" />
+                  <div class="text">CLI Input</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="output.jpg" style="width: 100%" />
+                  <div class="text">ASCII Text</div>
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+              </div>
+              <div class="dots-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="project-info">
+                <p>This project uses C to convert each pixel of the bmp image based on its luminance or brightness.</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <h3>Github User Activity CLI</h3>
+              </div>
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 6</div>
+                  <img
+                    src="all_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">See All Activities</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 6</div>
+                  <img
+                    src="push_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">Push Activities</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 6</div>
+                  <img
+                    src="pull_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">Pull Activities</div>
+                </div>
+                                <div class="mySlides fade">
+                  <div class="numbertext">4 / 6</div>
+                  <img
+                    src="issues_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">Issue Activities</div>
+                </div>
+                                <div class="mySlides fade">
+                  <div class="numbertext">5 / 6</div>
+                  <img
+                    src="fork_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">Fork Activities</div>
+                </div>
+                                <div class="mySlides fade">
+                  <div class="numbertext">6 / 6</div>
+                  <img
+                    src="create_activities.png"
+                    style="width: 100%"
+                  />
+                  <div class="text">Create Activities</div>
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+              </div>
+              <div class="dots-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="project-info">
+                <p>This is a project based on Python that uses CLI to display user's recent GitHub activities.</p>
+                <a href="https://github.com/TheMasshiro/github-user-activity-cli" class="button">View Project</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="contact-content">
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="6" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Kashmir Jean Philips. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
