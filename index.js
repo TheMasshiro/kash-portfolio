@@ -83,4 +83,22 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+
+  const hamburger = document.querySelector('.hamburger');
+  const navUl = document.querySelector('nav ul');
+  
+  if (hamburger) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navUl.classList.toggle('active');
+    });
+  }
+  
+  const navLinks = document.querySelectorAll('nav a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navUl.classList.remove('active');
+    });
+  });
 });
